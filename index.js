@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KHAN-MD~", '');
+const sessdata = config.SESSION_ID.replace("Demo-Slayer~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*Hello there ! \ud83d\udc4b\ud83c\udffb* \n\n> Best among the best \ud83c\udf8a, WhatsApp Bot.\n\n *Thanks for using \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t\n\n- *Prefix:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/XdTechPro/KHAN-MD\n\n> © Powered BY JawadTechX \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/nwsk0s.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
