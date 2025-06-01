@@ -1,12 +1,12 @@
 {
-  "name": "Demon-Slayer",
+  "name": "Eliakim-xmd",
   "version": "4.0.0",
   "description": "❤️",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name Demon-Slayer",
-    "stop": "pm2 stop Demon-Slayer",
-    "restart": "pm2 restart Demon-Slayer"
+    "stop": "pm2 stop Eliakim-xmd",
+    "restart": "pm2 restart Eliakim-xmd"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
